@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightred"
+    tools:context=".SplashNext">
+
+    <Button
+        android:background="@drawable/custom_button"
+        android:id="@+id/sp_login"
+        android:layout_marginTop="10dp"
+        android:text="Login Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:background="@drawable/custom_button"
+        android:id="@+id/sp_listview"
+        android:layout_marginTop="10dp"
+        android:text="ListView Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:background="@drawable/custom_button"
+        android:id="@+id/sp_spinner"
+        android:layout_marginTop="10dp"
+        android:text="Spinner View Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:background="@drawable/custom_button"
+        android:id="@+id/sp_atof"
+        android:layout_marginTop="10dp"
+        android:text="Activity to Fragment Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:background="@drawable/custom_button"
+        android:id="@+id/sp_tab"
+        android:layout_marginTop="10dp"
+        android:text="Tab Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:background="@drawable/custom_button"
+        android:id="@+id/sp_custom"
+        android:layout_marginTop="10dp"
+        android:text="CustomList View Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:background="@drawable/custom_button"
+        android:id="@+id/sp_recycle"
+        android:layout_marginTop="10dp"
+        android:text="Recycler View Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:background="@drawable/custom_button"
+        android:id="@+id/sp_expand"
+        android:layout_marginTop="10dp"
+        android:text="Expand View Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:background="@drawable/custom_button"
+        android:id="@+id/sp_sqlite"
+        android:layout_marginTop="10dp"
+        android:text="Sqlite Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
